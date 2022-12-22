@@ -14,7 +14,6 @@ app.use(bodyParser.json())
 
 // Routes/Controllers
 app.use('/api/products', require('./controllers/productController'))
-app.use('/api/authentication', require('./controllers/authenticationController'))
 
 //initialize
 initMongoDB()
